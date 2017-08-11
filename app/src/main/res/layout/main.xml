@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主Fragment，从这里打开其它三个Fragment" />
+
+    <Button
+        android:id="@+id/firstbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一个Fragment" />
+
+    <Button
+        android:id="@+id/secondbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二个Fragment" />
+
+    <Button
+        android:id="@+id/threadbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三个Fragment" />
+
+</LinearLayout>

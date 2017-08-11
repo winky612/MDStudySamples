@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         app:itemIconTint="@color/selector_blue"
         app:itemTextColor="@color/selector_blue"
-        app:menu="@menu/menu_bottom_navigation"/>
+        app:menu="@menu/menu_bottom_navigation" />
 
     <View
         android:layout_width="match_parent"

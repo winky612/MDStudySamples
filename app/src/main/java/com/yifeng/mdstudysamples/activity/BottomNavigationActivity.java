@@ -2,6 +2,7 @@ package com.yifeng.mdstudysamples.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.BottomNavigationView;
 
 import com.yifeng.mdstudysamples.R;
 
@@ -17,7 +18,7 @@ public class BottomNavigationActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom_navigation);
 
-//        BottomNavigationView view = (BottomNavigationView) findViewById(R.id.bnv_menu);
+        BottomNavigationView view = (BottomNavigationView) findViewById(R.id.bnv_menu);
 //        view.findViewById(R.id.action_explore).performClick();
     }
 }

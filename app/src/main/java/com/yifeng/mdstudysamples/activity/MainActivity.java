@@ -16,6 +16,10 @@ public class MainActivity extends BaseActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
     }
 
+    public void onClickFragments(View view){
+        startActivity(new Intent(this,FragmentsActivity.class));
+    }
+
     public void onClickTabLayoutTop(View v){
         startActivity(new Intent(this, TabLayoutTopActivity.class));
     }
